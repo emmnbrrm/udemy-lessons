@@ -49,7 +49,7 @@ function animatePress(currentColor){
     }, delayInMilliseconds);
 }
 
-$(document).keydown(function(){
+$(document).click(function(){
 
     if (!started) {
         $("#level-title").text("Level " + level);
